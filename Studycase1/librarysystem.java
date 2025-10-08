@@ -1,4 +1,4 @@
-package Librarysystem;
+package Studycase1;
 import java.util.Scanner;
 public class librarysystem{
 
