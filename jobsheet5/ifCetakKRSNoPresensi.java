@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ifCetakKRSNoPresensi {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+//input
         System.out.print("Is your UKT paid in full? (true/false)? ");
         boolean uktLunas = sc.nextBoolean();
 
