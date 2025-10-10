@@ -10,6 +10,9 @@ public class IfCetakKRS09 {
         if (uktlunas) {
             System.out.println("UKT payment verified");
             System.out.println("please print KRS and request DPA signature");
+        } else {
+            System.out.println("UKT payment Unverified");
+            System.out.println("sorry you can't got KRS");
         }
     }
 }
