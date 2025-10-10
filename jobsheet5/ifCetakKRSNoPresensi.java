@@ -5,14 +5,14 @@ public class ifCetakKRSNoPresensi {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Apakah UKT sudah lunas (true/false)? ");
+        System.out.print("Is your UKT paid in full? (true/false)? ");
         boolean uktLunas = sc.nextBoolean();
 
         // Versi singkat menggunakan ternary operator
         System.out.println(
             uktLunas
-            ? "Cetak KRS berhasil"
-            : "Registrasi ditolak. Silakan lunasi UKT terlebih dahulu"
+            ? "ukt payment verified,please print KRS and request DPA signature"
+            : "ukt payment unverified,sorry you can't got KRS"
         );
 
         sc.close();
