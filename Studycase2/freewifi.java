@@ -1,4 +1,5 @@
 package Studycase2;
+//task 3
 import java.util.Scanner;
 public class freewifi {
     public static void main(String[] args) {
