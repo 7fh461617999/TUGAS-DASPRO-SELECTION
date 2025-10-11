@@ -1,4 +1,4 @@
-#Algoritm : Free wifi in the Campus  
+# Algoritm : Free wifi in the Campus  
 {input user type (lecturer,student or others)}  
 declaration usertype,credits  
 description :  
