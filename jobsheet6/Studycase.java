@@ -36,10 +36,10 @@ public class Studycase {
 
         System.out.println();
         //proses 
-        //hitung nilai akhir
+        //hitung nilaiakhir
         Nilaiakhir1 = TUGAS1*0.3+UAS1*0.4+UTS1*0.3;
         Nilaiakhir2 = TUGAS2*0.3+UAS2*0.4+UTS2*0.3;
-        //get nilai huruf1
+        //get nilaihuruf1 from if
         if (Nilaiakhir1 >= 80 && Nilaiakhir1 <= 100) {
       nilaiHuruf1 = "A";
     } else if (Nilaiakhir1 >= 73 && Nilaiakhir1 < 80) {
@@ -99,7 +99,7 @@ public class Studycase {
     } else {
       statusSemester = "TIDAK LULUS";
     }
-        //output .
+        //output 
         System.out.println();
 
         System.out.println("================== hasil penilaian akademik ==================");
