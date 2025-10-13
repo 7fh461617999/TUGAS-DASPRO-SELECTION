@@ -99,7 +99,7 @@ public class Studycase {
     } else {
       statusSemester = "TIDAK LULUS";
     }
-        //output 
+        //output .
         System.out.println();
 
         System.out.println("================== hasil penilaian akademik ==================");
